@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MessagesComponent } from './components/messages/messages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MomentComponent } from './components/pages/moment/moment.component';
+import { EditMomentComponent } from './components/pages/edit-moment/edit-moment.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NewMomentComponent,
     MomentFormComponent,
     MessagesComponent,
+    MomentComponent,
+    EditMomentComponent,
   ],
   imports: [
     BrowserModule,
