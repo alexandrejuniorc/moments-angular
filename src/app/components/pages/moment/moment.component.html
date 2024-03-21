@@ -9,7 +9,7 @@
 
   <div class="actions">
     <h3>Ações:</h3>
-    <a class="edit-btn" href="/moments/edit/{{ moment.id }}">
+    <a class="edit-btn" routerLink="/moments/edit/{{ moment.id }}">
       <fa-icon [icon]="faEdit"></fa-icon> Editar
     </a>
     <button class="remove-btn" (click)="removeHandler(moment.id!)">
