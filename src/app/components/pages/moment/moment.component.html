@@ -12,7 +12,7 @@
     <a class="edit-btn" href="/moments/edit/{{ moment.id }}">
       <fa-icon [icon]="faEdit"></fa-icon> Editar
     </a>
-    <button class="remove-btn">
+    <button class="remove-btn" (click)="removeHandler(moment.id!)">
       <fa-icon [icon]="faTimes"></fa-icon> Excluir
     </button>
   </div>
